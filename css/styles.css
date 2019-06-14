@@ -1,0 +1,11 @@
+body {
+  padding: 12px;
+  border: 4px;
+  background-color: black;
+  font-family: serif;
+  text-align: center;
+}
+
+h2 {
+  text-decoration-color: lightgray;
+}
