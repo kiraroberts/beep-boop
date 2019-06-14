@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     var userInput = ($('input#inputNumber').val());
 
-    for (int i = 0; i <= userInput; ++i)
+    for (int i = 0; i <= userInput; i ++)
     var x = i.toString();
       for (int y = 0; y < x.length(); y ++)
       var z = x.charAt(y);
