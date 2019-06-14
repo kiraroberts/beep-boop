@@ -10,13 +10,13 @@ $(document).ready(function () {
   $('form.inputNumberForm').click(function (event) {
     event.preventDefault();
 
-    var userInput = [($('input#inputNumber').val())];
+    var userInput = [parseInt($('input#inputNumber').val())];
     console.log(userInput);
 
     for (index = userInput; index >= 0; index += 1) {
-      const map1 = userInput.map(X => [userInput] - 1);
+      const map1 = userInput.map(X => [index] - 1);
       userInput.push(map1);
-      console.log(userInput[1]);
+      console.log(userInput);
     };
   });
 });
