@@ -12,23 +12,24 @@ $(document).ready(function () {
 
     var userInput = ($('input#inputNumber').val());
 
-    for (int i = 0; i <= userInput; i ++)
+    for (int i = 0; i <= userInput; i++) {
     var x = i.toString();
-      for (int y = 0; y < x.length(); y ++)
+      for (int y = 0; y < x.length(); y++) {
       var z = x.charAt(y);
         if (z = "3") {
-        return "I'm sorry Dave.";
+          return "I'm sorry Dave.";
       } else if (z = "2") {
-        return "boop";
+          return "boop";
       } else if (z = "1") {
-        return "beep";
+          return "beep";
       } else {
-        return i;
+          return i;
       }
 
 
     console.log(userInput);
-
+    };
+    };
   });
 });
 
