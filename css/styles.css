@@ -1,4 +1,8 @@
 body {
+  background-image: url("file:///home/kira/Desktop/beep-boop/img/hal.jpeg");
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
   padding: 12px;
   border: 4px;
   background-color: black;
@@ -6,6 +10,10 @@ body {
   text-align: center;
 }
 
+jumbotron {
+  opacity: 0.2;
+}
+
 h2 {
-  text-decoration-color: lightgray;
+  text-decoration-color: white;
 }

@@ -20,15 +20,15 @@ $(document).ready(function () {
 
       arr1.forEach(function(g) {
         if ((g.includes("3"))) {
-          arr2.push("I'm sorry, Dave. I'm afraid I can't do that.")
+          arr2.push(" I'm sorry, Dave. I'm afraid I can't do that.")
       } else if ((g.includes("2"))) {
-          arr2.push("boop");
+          arr2.push(" boop");
       } else if ((g.includes("1"))) {
-          arr2.push("beep");
+          arr2.push(" beep");
       } else {
           arr2.push(g);
       }
     });
-    console.log(arr2);
+    $("h1#result").text(arr2);
   });
 });
