@@ -16,7 +16,9 @@
 
 ## Setup
 
-### To use Beep-Boop go to kirathorunn.github.io/beep-boop in a a web browser.
+### Navigate to https://github.com/kirathorunn/beep-boop in a web browser and clone the repository.
+
+### Open the index.html file in a web browser.
 
 ## Technologies Used
 

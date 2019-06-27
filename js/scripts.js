@@ -19,7 +19,6 @@ function beeper(userInput) {
       arr2.push(number);
     }
   })
-  console.log(arr2);
   return arr2
 };
 

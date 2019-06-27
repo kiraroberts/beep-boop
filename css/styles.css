@@ -1,5 +1,5 @@
 body {
-  background-image: url("file:///home/kira/Desktop/beep-boop/img/hal.jpeg");
+  background-image: url("../img/hal.jpeg");
   background-position: center;
   background-size: auto;
   background-attachment: fixed;
